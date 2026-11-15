@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Anshika Tiwari – Java Developer | Spring Boot | Android</title>
+<meta name="description" content="Anshika Tiwari is a B.Tech Information Technology student building Java and Spring Boot backends, Android apps and responsive websites.">
+<meta name="theme-color" content="#3d6b1f">
+<meta property="og:title" content="Anshika Tiwari – Android &amp; Web Developer">
+<meta property="og:description" content="Java, Spring Boot and Android developer. Open to internships.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%8C%BF%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Instrument+Sans:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f1f5e9;--surface:#e3ecd2;--ink:#1b2412;--muted:#475238;--line:#c9d6b0;--accent:#3d6b1f;--on:#fff;
+--display:"Bricolage Grotesque","Trebuchet MS",system-ui,sans-serif;--body:"Instrument Sans",system-ui,-apple-system,"Segoe UI",sans-serif}
+[data-theme=dusk]{--bg:#f3eefb;--surface:#e8e0f6;--ink:#20163a;--muted:#4c4266;--line:#d3c6ec;--accent:#5b3fa8}
+[data-theme=coral]{--bg:#fdf0ec;--surface:#f9e0d9;--ink:#3a1710;--muted:#6a463d;--line:#f0c9bd;--accent:#a8321a}
+[data-theme=ocean]{--bg:#eaf3f8;--surface:#d9eaf3;--ink:#0f2530;--muted:#40595f;--line:#bcd6e3;--accent:#14627f}
+[data-theme=sun]{--bg:#fbf5e0;--surface:#f4ebbf;--ink:#2e2606;--muted:#5c5230;--line:#e6d99a;--accent:#7a5c00}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:5rem}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 1.0625rem/1.65 var(--body)}
+@media(prefers-reduced-motion:no-preference){body,.phone,.btn,.field{transition:background-color .4s,color .4s,border-color .4s}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+a{color:var(--accent)}:focus-visible{outline:3px solid var(--accent);outline-offset:3px;border-radius:6px}
+.skip{position:absolute;left:-999px;top:0;background:var(--accent);color:var(--on);padding:.6rem 1rem;z-index:20}.skip:focus{left:0}
+.wrap{max-width:70rem;margin:0 auto;padding:0 1.5rem}
+.bar{position:sticky;top:0;z-index:10;background:var(--bg);border-bottom:1px solid var(--line)}
+.bar .wrap{display:flex;justify-content:space-between;align-items:center;padding-top:.9rem;padding-bottom:.9rem;gap:1rem;flex-wrap:wrap}
+.brand{font:800 1.2rem var(--display);color:var(--ink);text-decoration:none}
+nav a{margin-left:1.4rem;color:var(--ink);font-weight:600;text-decoration:none}nav a:hover{color:var(--accent)}
+.hero{display:grid;grid-template-columns:1.3fr 1fr;gap:3rem;align-items:center;padding:4.5rem 0 4rem}
+h1{font:800 clamp(2.6rem,6.5vw,4.6rem)/1.02 var(--display);letter-spacing:-.025em;margin:0 0 1.25rem}
+.role{font:600 1.15rem var(--display);color:var(--accent);margin:0 0 .75rem}
+.lead{font-size:1.2rem;color:var(--muted);max-width:33rem;margin:0 0 2rem}
+.btn{display:inline-block;background:var(--accent);color:var(--on);padding:.85rem 1.5rem;border-radius:999px;font-weight:600;text-decoration:none;margin:0 .5rem .5rem 0}
+.btn.ghost{background:transparent;color:var(--ink);box-shadow:inset 0 0 0 2px var(--ink)}.btn:hover{filter:brightness(1.12)}
+.theme{display:flex;align-items:center;gap:.6rem;flex-wrap:wrap;margin-top:1.75rem;color:var(--muted);font-size:.95rem}
+.theme p{margin:0 .4rem 0 0;font-weight:600}
+.swatch{width:2.25rem;height:2.25rem;border-radius:50%;border:3px solid var(--bg);box-shadow:0 0 0 2px var(--ink);cursor:pointer;padding:0}
+.swatch[aria-pressed=true]{box-shadow:0 0 0 4px var(--ink)}
+.phone{justify-self:center;width:15.5rem;background:var(--surface);border:8px solid var(--ink);border-radius:2.4rem;padding:1.4rem 1.1rem 1.6rem}
+.phone .notch{width:4rem;height:.4rem;border-radius:9px;background:var(--ink);margin:0 auto 1.2rem}
+.phone h2{font:800 1.15rem var(--display);margin:0 0 .2rem}.phone small{color:var(--muted);display:block;margin-bottom:1rem}
+.field{background:var(--bg);border:1px solid var(--line);border-radius:.8rem;padding:.55rem .8rem;margin-bottom:.6rem;font-size:.9rem;color:var(--muted)}
+.field b{display:block;color:var(--ink);font-weight:600}
+.go{background:var(--accent);color:var(--on);text-align:center;border-radius:999px;padding:.65rem;font-weight:600;margin-top:.9rem;font-size:.95rem}
+section{padding:3.5rem 0;border-top:1px solid var(--line)}
+h2.sec{font:800 clamp(1.8rem,4vw,2.5rem)/1.1 var(--display);letter-spacing:-.02em;margin:0 0 2rem}
+.about{display:grid;grid-template-columns:1.2fr 1fr;gap:3rem}
+.about p{margin:0 0 1rem;max-width:36rem}
+dl{margin:0}dt{font-weight:600;color:var(--muted);font-size:.9rem}dd{margin:0 0 1rem;font:600 1.1rem var(--display)}
+.proj{display:grid;grid-template-columns:12rem 1fr;gap:2rem;padding:2rem 0;border-bottom:1px solid var(--line)}
+.proj:first-of-type{padding-top:0}
+.proj h3{font:800 1.7rem/1.1 var(--display);margin:0}.proj .kind{color:var(--muted);font-size:.95rem;margin-top:.4rem}
+.proj h4{font:600 .95rem var(--body);color:var(--muted);margin:0 0 .15rem}.proj p{margin:0 0 1rem;max-width:40rem}
+.tags{display:flex;flex-wrap:wrap;gap:.5rem;padding:0;margin:0 0 1rem;list-style:none}
+.chip{background:var(--surface);padding:.2rem .8rem;border-radius:999px;font-size:.9rem;font-weight:600}
+.skills{display:grid;grid-template-columns:repeat(auto-fit,minmax(14rem,1fr));gap:2rem}
+.skills h3{font:800 1.15rem var(--display);margin:0 0 .5rem}.skills p{margin:0;color:var(--muted)}
+.contact{background:var(--accent);color:var(--on);border-radius:2rem;padding:2.5rem}
+.contact h2{font:800 clamp(1.7rem,4vw,2.4rem)/1.1 var(--display);margin:0 0 .75rem}.contact p{margin:0 0 1.25rem;max-width:34rem}
+.contact .btn{background:var(--on);color:var(--accent)}
+.status{display:inline-flex;align-items:center;gap:.5rem;background:var(--surface);border:1px solid var(--line);border-radius:999px;padding:.3rem .9rem;font-size:.9rem;font-weight:600;margin:0 0 1.25rem}
+.dot{width:.6rem;height:.6rem;border-radius:50%;background:var(--accent)}
+nav a.active{color:var(--accent);text-decoration:underline;text-underline-offset:6px}
+.proj{border-radius:0}.proj:hover h3{color:var(--accent)}
+@media(prefers-reduced-motion:no-preference){.hero>div:first-child>*{animation:rise .7s both}.hero>div:first-child>*:nth-child(2){animation-delay:.08s}.hero>div:first-child>*:nth-child(3){animation-delay:.16s}.hero>div:first-child>*:nth-child(4){animation-delay:.24s}.phone{animation:rise .8s .2s both}.dot{animation:pulse 2.4s infinite}}
+@keyframes rise{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+@keyframes pulse{50%{box-shadow:0 0 0 .4rem transparent;opacity:.5}}
+footer{padding:2rem 0 3rem;color:var(--muted);font-size:.95rem}
+@media(max-width:52rem){.hero,.about{grid-template-columns:1fr}.proj{grid-template-columns:1fr;gap:1rem}.phone{display:none}nav a{margin-left:1rem}}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="bar"><div class="wrap">
+<a class="brand" href="#top">Anshika Tiwari</a>
+<nav aria-label="Main"><a href="#about">About</a><a href="#work">Projects</a><a href="#skills">Skills</a><a href="#contact">Contact</a></nav>
+</div></div>
+<main id="main" class="wrap">
+<div class="hero" id="top">
+<div>
+<p class="status"><span class="dot" aria-hidden="true"></span>Open to internships and placements</p>
+<p class="role">Java Developer | Spring Boot | Android Developer</p>
+<h1>Anshika Tiwari</h1>
+<p class="lead">B.Tech Information Technology student building backend services with Spring Boot, Android apps and responsive websites. I am looking for an internship where I can ship real products.</p>
+<a class="btn" href="#work">View projects</a><a class="btn ghost" href="https://github.com/anshikatiwari-it" rel="noopener">GitHub</a>
+<div class="theme" role="group" aria-label="Choose a colour theme">
+<p>App theme</p>
+<button class="swatch" data-set="meadow" aria-label="Meadow green" style="background:#3d6b1f"></button>
+<button class="swatch" data-set="dusk" aria-label="Dusk purple" style="background:#5b3fa8"></button>
+<button class="swatch" data-set="coral" aria-label="Coral red" style="background:#a8321a"></button>
+<button class="swatch" data-set="ocean" aria-label="Ocean blue" style="background:#14627f"></button>
+<button class="swatch" data-set="sun" aria-label="Sun gold" style="background:#7a5c00"></button>
+</div>
+</div>
+<div class="phone" aria-hidden="true">
+<div class="notch"></div>
+<h2>Typing Speed Tester</h2><small>Typing test</small>
+<div class="field"><b>Speed</b>Words per minute</div>
+<div class="field"><b>Accuracy</b>Correct keystrokes</div>
+<div class="field"><b>Time</b>Test duration</div>
+<div class="go">Start test</div>
+</div>
+</div>
+
+<section id="about" aria-labelledby="about-h">
+<h2 class="sec" id="about-h">About</h2>
+<div class="about">
+<div>
+<p>I am a B.Tech Information Technology student passionate about Java, Spring Boot, Android development and building responsive web applications. I enjoy solving real-world problems through software and am currently looking for internship opportunities to gain industry experience.</p>
+</div>
+<dl>
+<div><dt>Studying</dt><dd>B.Tech, Information Technology</dd></div>
+<div><dt>Focus</dt><dd>Java, Spring Boot and Android</dd></div>
+<div><dt>Looking for</dt><dd>Internship opportunities</dd></div>
+</dl>
+</div>
+</section>
+
+<section id="work" aria-labelledby="work-h">
+<h2 class="sec" id="work-h">Projects</h2>
+<article class="proj">
+<div><h3>Bharat Vikas Sankalp</h3><p class="kind">Backend, Spring Boot</p></div>
+<div>
+<h4>Problem</h4><p>Citizens need an easy way to connect with the organization.</p>
+<h4>What I built</h4><p>Developed the backend using Spring Boot and MongoDB to manage contact forms and user requests.</p>
+<ul class="tags" aria-label="Technologies"><li class="chip">Java</li><li class="chip">Spring Boot</li><li class="chip">MongoDB</li><li class="chip">REST API</li></ul>
+<a href="https://github.com/anshikatiwari-it" rel="noopener">View source on GitHub</a>
+</div>
+</article>
+<article class="proj">
+<div><h3>Typing Speed Tester</h3><p class="kind">Web app</p></div>
+<div>
+<h4>Problem</h4><p>Help users improve typing speed and accuracy.</p>
+<h4>What I built</h4><p>A responsive typing test that calculates WPM, accuracy, and tracks typing performance.</p>
+<ul class="tags" aria-label="Technologies"><li class="chip">HTML</li><li class="chip">CSS</li><li class="chip">JavaScript</li></ul>
+<a href="https://github.com/anshikatiwari-it" rel="noopener">View source on GitHub</a>
+</div>
+</article>
+</section>
+
+<section id="skills" aria-labelledby="skills-h">
+<h2 class="sec" id="skills-h">Skills</h2>
+<div class="skills">
+<div><h3>Backend</h3><p>Java, Spring Boot, REST API, MongoDB.</p></div>
+<div><h3>Frontend</h3><p>HTML, CSS and JavaScript.</p></div>
+<div><h3>Mobile</h3><p>Android Studio.</p></div>
+<div><h3>Tools</h3><p>Git &amp; GitHub, VS Code.</p></div>
+</div>
+</section>
+
+<section id="contact" aria-labelledby="contact-h">
+<div class="contact">
+<h2 id="contact-h">Let’s work together</h2>
+<p>I am open to internship opportunities in Java, Spring Boot and Android development.</p>
+<a class="btn" href="https://github.com/anshikatiwari-it" rel="noopener">See my GitHub</a>
+</div>
+</section>
+</main>
+<footer class="wrap">© 2026 Anshika Tiwari.</footer>
+<script>
+(function(){var r=document.documentElement,b=document.querySelectorAll('.swatch');
+function set(t){if(t==='meadow'){r.removeAttribute('data-theme')}else{r.setAttribute('data-theme',t)}
+b.forEach(function(x){x.setAttribute('aria-pressed',String(x.dataset.set===t))});try{localStorage.setItem('theme',t)}catch(e){}}
+var s='meadow';try{s=localStorage.getItem('theme')||'meadow'}catch(e){}
+set(s);b.forEach(function(x){x.addEventListener('click',function(){set(x.dataset.set)})});})();
+(function(){var l=document.querySelectorAll('nav a'),m={};l.forEach(function(a){m[a.getAttribute('href').slice(1)]=a});
+if(!('IntersectionObserver' in window))return;
+var o=new IntersectionObserver(function(e){e.forEach(function(x){if(x.isIntersecting){l.forEach(function(a){a.classList.remove('active')});if(m[x.target.id])m[x.target.id].classList.add('active')}})},{rootMargin:'-40% 0px -55% 0px'});
+Object.keys(m).forEach(function(k){var el=document.getElementById(k);if(el)o.observe(el)});})();
+</script>
+</body>
+</html>
